@@ -87,4 +87,8 @@ function addImageToGallery({ preview, original, description }) {
 }
 images.forEach(addImageToGallery);
 
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a', {
+    captions: true,
+    captionsData: 'alt',
+    captionDelay: 250
+});
