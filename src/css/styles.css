@@ -16,3 +16,9 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+.hello-max{
+  max-width: 1200px;
+  margin: 0 auto;
+}
